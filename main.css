@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.top_info {
+    padding-top: 90px;
+}
+
+.top_info h1 {
+    padding-bottom: 17px;
+}
+
+.top_info p {
+    padding-bottom: 52px;
+}
+
+.top_logos {
+    padding-top: 97px;
+}
