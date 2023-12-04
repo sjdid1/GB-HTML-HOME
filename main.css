@@ -1,7 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    color: black;
+}
+
+.top {
+    max-width: 1230px;
+    padding: 0px 30px;
+    margin: 0px auto;
 }
 
 .top_info {
@@ -16,6 +26,121 @@
     padding-bottom: 52px;
 }
 
+.top_content {
+    padding-top: 89px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 162px;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.header_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.nav_list {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.nav_item {
+    font-size: 14px;
+    font-family: Gilroy-SemiBold;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.nav_link.active {
+    color: #F25822;
+}
+
+
+.top_info {
+    color: black;
+    font-size: 30px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+
+}
+
+.top_info p {
+    color: #888888;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.top_info_video {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+.top_button_1 {
+    background-color: #F25822;
+    display: inline-block;
+    color: #FFF;
+    font-size: 15px;
+    padding: 15px 36px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.top_link_1 {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 72px;
+}
+
+.top_info_img {
+    width: 544px;
+    height: 374px;
+}
+
 .top_logos {
     padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 48px;
 }
