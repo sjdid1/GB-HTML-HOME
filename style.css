@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-menu {
+    padding: 18px 240px 19px 231px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #222;
+}
+
+
+.nav-menu :nth-child(2) {
+    margin-right: auto;
+    padding-left: 41px;
+}
+
+.header-preview {
+    display: flex;
+    align-items: center;
+    background-color: #F1E4E6;
+    margin-bottom: 65px;
+}
+
+.header-preview :nth-child(2) {
+    margin-right: 16px;
+}
+
+.the-brand {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.of-luxerious {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fashion {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h3 {
+    padding-top: 96px;
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.container p {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-preview {
+    display: grid;
+    grid-template-areas: 'A B C' 'D D D';
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.preview-card_1 {
+
+    background-image:
+        url(/img/women-card.png);
+    width: 360px;
+    height: 260px;
+    grid-area: A;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, contain;
+}
+
+.preview-card_2 {
+    background-image: url(/img/men-card.jpg);
+    width: 360px;
+    height: 260px;
+    grid-area: B;
+}
+
+.preview-card_3 {
+    background-image: url(/img/kids-card.jpg);
+    width: 360px;
+    height: 260px;
+    grid-area: C;
+}
+
+.preview-card_4 {
+    background-image: url(/img/accesories-card.jpg);
+    height: 180px;
+    grid-area: D;
+}
+
+.preview-card_1,
+.preview-card_2,
+.preview-card_3,
+.preview-card_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-start {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-info {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item-cards {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    gap: 30px;
+    text-align: left;
+}
+
+.item-name {
+    padding-top: 24px;
+    padding-left: 16px;
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item-info {
+    padding: 16px;
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.item-price {
+    padding-bottom: 24px;
+    padding-left: 16px;
+
+}
+
+.item-cards h4 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
