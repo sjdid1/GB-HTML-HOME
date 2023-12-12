@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+/* .center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+} */
 
 .nav-menu {
     padding: 18px 240px 19px 231px;
@@ -196,4 +200,23 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.button-browse {
+color: #F26376;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 15px 39px 14px 39px;
+border: #ff6a6a 2px solid;
+text-decoration: none;
+margin-bottom: 60px;
+margin-top: 48px;
+}
+
+.button-browse:hover {
+    color: #F1E4E6;
+    background-color: #ff6a6a;
 }
