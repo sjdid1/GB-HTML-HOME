@@ -1,0 +1,57 @@
+@media (max-width: 1024px) {
+
+    .header-icon {
+        margin-left: -169px;
+    }
+
+    .searc-svg {
+        padding-right: 424px;
+    }
+
+    .profile-svg {
+        position: absolute;
+        right: 18px;
+    }
+
+    .header-img {
+        width: 386px;
+        height: 368px;
+        margin-right: -39px;
+    }
+
+    .the-brand {
+        font-size: 44px;
+    }
+
+    .of-luxerious {
+        font-size: 24px;
+    }
+
+    .fashion {
+        font-size: 24px;
+    }
+
+    .preview-card_1, .preview-card_2, .preview-card_3  {
+        width: 232px;
+        height: 167px;
+        background-size: cover;
+    }
+
+    .preview-card_4 {
+        height: 116px;
+        background-size: cover;
+    }
+
+    .content-preview {
+        column-gap: 19px;
+        row-gap: 19px;
+        padding-bottom: 110px;
+    }
+
+    .item-cards {
+        margin-top: 72px;
+        grid-template-columns: 360px 360px;
+        gap: 16px;
+    }
+
+}
