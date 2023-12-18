@@ -55,3 +55,88 @@
     }
 
 }
+
+
+
+@media (max-width:767px) {
+    .pers {
+        display: none;
+    }
+
+    .pay {
+        display: none;
+    }
+
+    .nav-menu {
+        
+        padding: 0;
+        align-items: center;
+        height: 74px;
+        
+    }
+
+    .header-icon {
+margin-left: 16px;
+margin-right: 41px;
+    } 
+
+    .search-svg {
+        margin-right: auto;
+        padding-left: 41px;
+    }
+
+    .profile-svg {
+        position: absolute;
+        right: -96px; 
+
+    }
+
+    .header-preview {
+        height: 363px;
+        
+    }
+
+    .the-brand {
+        font-size: 38px;
+    }
+
+    .of-luxerious {
+        font-size: 20px;
+    }
+
+    .fashion {
+        font-size: 20px;
+    }
+
+     .header-img {
+        display: none;
+    }
+
+    .content-preview {
+        display: flex;
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
+        align-items: center;
+        padding-bottom: 64px;
+    }
+
+    .preview-card_1, .preview-card_2, .preview-card_3  {
+        width: 343px;
+        height: 247px; 
+        background-size: cover;
+    }
+
+    .preview-card_4 {
+        height: 111px;
+        width: 343px;
+        background-size: cover;
+    }
+
+    .item-cards {
+        margin-top: 65px;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+}
