@@ -20,11 +20,20 @@
 
 .profile-svg {
     display: flex;
-
+    align-items: center;
+    position: absolute;
+    right: 240px;
 }
 
-.nav-menu :nth-child(2) {
-    margin-right: auto;
+.icon-more {
+    padding-right: 33px;
+}
+
+.icon-profile {
+    padding-right: 33px;
+}
+
+.search-svg {
     padding-left: 41px;
 }
 
@@ -257,7 +266,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -451,5 +460,5 @@
 .footer-tw:hover path,
 .footer-pint:hover path,
 .footer-inst:hover path {
-fill: #fff;
+    fill: #fff;
 }

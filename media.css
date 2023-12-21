@@ -113,11 +113,11 @@
         padding-right: calc(50% - 179px);
     }
 
-    .pers {
+    .icon-profile {
         display: none;
     }
 
-    .pay {
+    .icon-buy {
         display: none;
     }
 
@@ -135,14 +135,7 @@
     }
 
     .search-svg {
-        margin-right: auto;
-        padding-left: 41px;
-    }
-
-    .profile-svg {
-        position: absolute;
-        right: -96px;
-
+        padding-left: 0;
     }
 
     .header-preview {
