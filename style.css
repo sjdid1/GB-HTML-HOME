@@ -106,7 +106,7 @@
 .preview-card_1 {
 
     background-image:
-        url(/img/women-card.png);
+        url(./img/women-card.png);
     width: 360px;
     height: 260px;
     grid-area: A;
@@ -115,21 +115,21 @@
 }
 
 .preview-card_2 {
-    background-image: url(/img/men-card.jpg);
+    background-image: url(./img/men-card.jpg);
     width: 360px;
     height: 260px;
     grid-area: B;
 }
 
 .preview-card_3 {
-    background-image: url(/img/kids-card.jpg);
+    background-image: url(./img/kids-card.jpg);
     width: 360px;
     height: 260px;
     grid-area: C;
 }
 
 .preview-card_4 {
-    background-image: url(/img/accesories-card.jpg);
+    background-image: url(./img/accesories-card.jpg);
     height: 180px;
     grid-area: D;
 }
