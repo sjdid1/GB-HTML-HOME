@@ -1,5 +1,10 @@
 @media (max-width: 1024px) {
 
+    .center {
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+    }
+
     .header-icon {
         margin-left: -169px;
     }
@@ -31,7 +36,9 @@
         font-size: 24px;
     }
 
-    .preview-card_1, .preview-card_2, .preview-card_3  {
+    .preview-card_1,
+    .preview-card_2,
+    .preview-card_3 {
         width: 232px;
         height: 167px;
         background-size: cover;
@@ -54,11 +61,58 @@
         gap: 16px;
     }
 
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+
+
+    .footer-content-1,
+    .footer-content-2,
+    .footer-content-3 {
+        margin-left: 204px;
+        margin-right: 204px;
+    }
+
+    .footer-content-2 {
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer-left-info {
+        padding-top: 64px;
+    }
+
+    .footer-left-info-p {
+        padding-bottom: 0px;
+    }
+
+    .footer-right-info {
+        padding-top: 48px;
+        padding-bottom: 140px;
+    }
+
 }
 
 
 
 @media (max-width:767px) {
+
+    .center {
+        padding-left: calc(50% - 179px);
+        padding-right: calc(50% - 179px);
+    }
+
     .pers {
         display: none;
     }
@@ -68,17 +122,17 @@
     }
 
     .nav-menu {
-        
+
         padding: 0;
         align-items: center;
         height: 74px;
-        
+
     }
 
     .header-icon {
-margin-left: 16px;
-margin-right: 41px;
-    } 
+        margin-left: 16px;
+        margin-right: 41px;
+    }
 
     .search-svg {
         margin-right: auto;
@@ -87,13 +141,13 @@ margin-right: 41px;
 
     .profile-svg {
         position: absolute;
-        right: -96px; 
+        right: -96px;
 
     }
 
     .header-preview {
         height: 363px;
-        
+
     }
 
     .the-brand {
@@ -108,7 +162,7 @@ margin-right: 41px;
         font-size: 20px;
     }
 
-     .header-img {
+    .header-img {
         display: none;
     }
 
@@ -121,9 +175,11 @@ margin-right: 41px;
         padding-bottom: 64px;
     }
 
-    .preview-card_1, .preview-card_2, .preview-card_3  {
+    .preview-card_1,
+    .preview-card_2,
+    .preview-card_3 {
         width: 343px;
-        height: 247px; 
+        height: 247px;
         background-size: cover;
     }
 
@@ -138,5 +194,60 @@ margin-right: 41px;
         grid-template-columns: 1fr;
         gap: 16px;
     }
+
+.footer-content {
+    padding-bottom: 0;
+}
+
+    .footer-content-1,
+    .footer-content-2,
+    .footer-content-3 {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 360px;
+    }
+
+.footer-h {
+    padding-top: 27px;
+    
+}
+
+.footer-p {
+    padding-top: 14px;
+    padding-bottom: 22px;
+    
+}
+
+.footer-content-3 {
+    padding-bottom: 81px;
+}
+
+.footer-left-info-p, 
+.footer-left-info-p-span  {
+    font-size: 18px;
+}
+
+.footer-right-info-p2 {
+    font-size: 14px;
+}
+
+.custom-field input {
+    width: 200px;
+}
+
+.email-button-link {
+    width: 80px;
+}
+
+.footer-contacts {
+    flex-direction: column-reverse;
+    padding-top: 43px;
+    height: 143px;
+}
+
+.footer-contacts-left {
+   padding-bottom: 9px;
+   padding-top: 40px; 
+}
 
 }
